@@ -1,0 +1,16 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+</head>
+  <body>
+    <button id="someButton">This is Some Button</button>
+    <script>
+        var button = document.getElementById("someButton")
+        button.addEventListener("mouseenter", whatToDoOnClick); //addEventListener(event, function)
+        // Refer W3schools for list of events that can be used
+        function whatToDoOnClick() {
+            alert("You Did it!")
+        }
+    </script>
+  </body>
+</html>
